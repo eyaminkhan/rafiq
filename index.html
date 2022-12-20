@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css"> 
+
+    <script src="https://kit.fontawesome.com/76cdd1034a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+    
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p></p>
+                <h1>I am<span>Rafiq</span><br>A Graphic Designer</h1>
+            </div>
+        </div>
+<!----------------------about-------------------->
+    </div>
+    <div id="about">
+        <div id="container">
+            <div id="row">
+                <div class="about-col-1">
+                    <img src="user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>I am a graphic designer. I have been designing logos for three years.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphic Designer</span><br>Designe logo</li>
+                            <li><span>Web Developmnet</span><br>Desingne web site</li>
+                            <li><span>App Development</span><br>Desine app interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>work</span><br>work in freelancer.com</li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="educations">
+                        <ul>
+                            <li><span>school</span><br>B.B.govt.primary school</li>
+                            <li><span>high school</span><br>Faridpur Union A.H.B. High School</li>
+                            <li><span>College</span><br>Govt.Hosin Ali College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------services-------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="services-list">
+                
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designe</h2>
+                    <p>Designe website</p>
+                    <a href="#">learn more...</a>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>App Development</h2>
+                    <p>Develop app</p>
+                    <a href="#">learn more...</a>
+                </div>
+                
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Designe Logo</h2>
+                    <p>Designe logo</p>
+                    <a href="#">learn more...</a>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------------portfolio--------------------------------->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Logo demo</h3>
+                        <p>My logo</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Logo demo</h3>
+                        <p>My logo</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Logo demo</h3>
+                        <p>MY logo</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more...</a>
+        </div>
+    </div>
+
+<!----------------------contact----------------------->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rafiqsarkar@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="socile-icons">
+                    <a href="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="twetter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="instragram"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="inkedin"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="my-cv.pdf" class="btn btn2">Download Cv</a>
+            </div><br><br>
+            <h1 class="sub">SEND MESSAGE</h1>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                 <input type="text" name="name" placeholder="Your Name" required>
+                 <input type="email" name="email" placeholder="Your Email" required>
+                 <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                 <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+                    
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @2022 rafiqsarkar.com made  by eyaminkhan</p>
+    </div>
+</div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document .getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwDNAIPjNdG0W6K1AwaV7lrnS0Vc2mlanYxo8gw1w7_vd_0QCT44WZrUoB_zM-ywHw0OQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successful"
+            setTimeout(function(){
+                msg.inert =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
